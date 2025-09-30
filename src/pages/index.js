@@ -127,6 +127,7 @@ const IndexPage = () => {
   return (
      <main>
       <h1>Welcome to my Gatsby site!</h1>
+      <h2>Привет Вован</h2>
       <p>I'm making this by following the Gatsby Tutorial.</p>
     </main>
   )
