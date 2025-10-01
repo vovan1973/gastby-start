@@ -1,9 +1,10 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import {container} from './laout.module.css'
 
 const Layout = ({ pageTitle, nameTitle, children }) => {
   return (
-    <div>
+    <div className={container}>
       <nav>
         <ul>
           <li><Link to="/">Главная</Link></li>
