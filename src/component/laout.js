@@ -6,9 +6,13 @@ const Layout = ({ pageTitle, nameTitle, children }) => {
   return (
     <div className={container}>
       <nav>
-        <ul>
-          <li><Link to="/">Главная</Link></li>
-          <li><Link to="/about">О нас</Link></li>
+        <ul className={nav-links}>
+          <li className={nav-link-item}>
+            <Link to="/" className={nav-link-text}>Главная</Link>
+            </li>
+          <li className={nav-link-item}>
+            <Link to="/about" className={nav-link-text}>О нас</Link>
+            </li>
         </ul>
       </nav>
       <main>
