@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import {container} from './laout.module.css'
+import {container, heading} from './laout.module.css'
 
 const Layout = ({ pageTitle, nameTitle, children }) => {
   return (
@@ -12,7 +12,7 @@ const Layout = ({ pageTitle, nameTitle, children }) => {
         </ul>
       </nav>
       <main>
-        <h1>{pageTitle}</h1>
+        <h1 className={heading}>{pageTitle}</h1>
         <h2>{nameTitle}</h2>
         {children}
       </main>
