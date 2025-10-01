@@ -1,5 +1,6 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import Layout from "../component/laout"
+
 
 const pageStyles = {
   color: "#232129",
@@ -127,10 +128,9 @@ const links = [
 const IndexPage = () => {
   return (
      <main>
-      <h1>Welcome to my Gatsby site!</h1>
-      <Link to="/about">О нас</Link>
-      <h2>Привет Вован Teres</h2>
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+     <Layout pageTitle="Домашняя страница" nameTitle="TeresVovan">
+      <p>Я делаю это по инструкции Гэтсби.</p>
+     </Layout>
     </main>
   )
 }
